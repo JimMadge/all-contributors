@@ -122,7 +122,7 @@ There are a number of options to [install Lychee](https://lychee.cli.rs/installa
 To check internal links, for example between pages or references to images, run:
 
 ```console
-npm run link-check-md-offline
+npm run link-check-offline
 ```
 
 This is the same test that is run in CI and it should pass before contributions are merged.
@@ -130,7 +130,7 @@ This is the same test that is run in CI and it should pass before contributions 
 You can also check all links, including links to external resources like other websites:
 
 ```console
-npm run link-check-md
+npm run link-check
 ```
 
 <Aside type="caution">Checking online resources is likely to result in false positives. Some sites may reject requests if they don't appear to be from a browser, or you may be rate limited.</Aside>
