@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+      - run: npm ci
+      - run: npm run build
       - uses: lycheeverse/lychee-action@v2
         with:
           # Only check local files, no network requests
