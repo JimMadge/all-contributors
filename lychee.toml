@@ -38,13 +38,13 @@ require_https = true
 
 # Fallback extensions to apply when a URL does not specify one.
 # This is common in documentation tools that cross-reference files without extensions.
-fallback_extensions = ["md", "mdx", "html"]
+fallback_extensions = ["html"]
 
 #############################  Exclusions  ##########################
 
 # Exclude URLs and mail addresses from checking. The values are treated as regular expressions
 exclude = [
-  '%7B.*%7D' #  Exclude astro aliases, like {reference}
+  "^file://.*#"
 ]
 
 # Check fragments - internal links in pages
