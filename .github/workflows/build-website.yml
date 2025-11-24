@@ -45,7 +45,7 @@ jobs:
       - name: Download html files from artifact
         uses: actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53 # v6.0.0
         with:
-          name: book-html-${{ github.run_id }}
+          name: html-${{ github.run_id }}
           path: ./dist
       - name: Offline link check
         uses: lycheeverse/lychee-action@v2
