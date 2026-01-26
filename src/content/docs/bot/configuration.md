@@ -59,7 +59,7 @@ These are the keys you can specify:
 }
 ```
 
-#### Moving the All Contributors table into a different file
+## Moving the All Contributors table into a different file
 
 As you know, the default file for the contributors table is `README.md`. But if your project has tons of contributors, it doesn't make sense to include the All Contributors table in the `README.md` file. Instead, you can use a different file to do so.
 

@@ -4,11 +4,11 @@ title: Frequently Asked Questions
 sidebar_label: FAQs
 ---
 
-### All Contributors badge count, does not update?
+## All Contributors badge count, does not update?
 
 To have the Badge update correctly, use the dynamic Shields badge.
 
-#### Previously
+### Previously
 
 ```markdown
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -16,7 +16,7 @@ To have the Badge update correctly, use the dynamic Shields badge.
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ```
 
-#### Now
+### Now
 
 Replace `projectOwner` with the relevant GitHub username or organization name, and `projectName` with the relevant the GitHub repo name. Style, color, and other parameters can be customized to your liking — see <https://shields.io/>.
 
