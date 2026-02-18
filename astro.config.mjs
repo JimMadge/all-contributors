@@ -69,6 +69,18 @@ export default defineConfig({
           ],
         },
       ],
+      // Serve default locale at / rather than /<locale>
+      defaultLocale: 'root',
+      locales: {
+        // Set English as root, default locale
+        root: {
+          label: 'English',
+          lang: 'en',
+        },
+        ro: {
+          label: 'Romanian',
+        },
+      },
     }),
     sitemap()
   ],
