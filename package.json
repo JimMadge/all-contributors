@@ -11,6 +11,7 @@
     "commit": "git-cz",
     "dev": "astro dev",
     "start": "astro dev",
+    "translations": "crowdin pull -b main",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
