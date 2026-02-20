@@ -70,12 +70,16 @@ export default defineConfig({
         },
       ],
       // Serve default locale at / rather than /<locale>
-      defaultLocale: 'root',
+      defaultLocale: 'en',
       locales: {
         // Set English as root, default locale
-        root: {
+        en: {
           label: 'English',
           lang: 'en',
+        },
+        ar: {
+          label: 'العربية',
+          dir: 'rtl',
         },
         ro: {
           label: 'Romanian',
