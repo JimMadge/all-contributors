@@ -75,70 +75,26 @@ export default defineConfig({
         en: {
           label: 'English',
         },
-        // ar: {
-        //   label: 'العربية',
-        //   dir: 'rtl',
-        // },
-        // bn: {
-        //   // Bengali
-        //   label: 'বাং',
-        // },
-        // da: {
-        //   // Danish
-        //   label: 'Dansk',
-        // },
         // de: {
         //   // German
         //   label: 'Deutsch',
-        // },
-        // el: {
-        //   // Greek
-        //   label: 'Νέα Ελληνικά',
         // },
         // es: {
         //   // Spanish
         //   label: 'Español',
         // },
-        // fa: {
-        //   // Farsi (Persian)
-        //   label: 'فارسی',
-        // },
-        // fi: {
-        //   // Finnish
-        //   label: 'Suomi',
-        // },
-        // fil: {
-        //   // Filipino (Tagalog)},
-        //   label: 'Wikang Tagalog',
-        // },
         // fr: {
         //   // French
         //   label: 'Français',
-        // },
-        // gl: {
-        //   // Galician
-        //   label: 'Galego',
-        // },
-        // he: {
-        //   // Hebrew
-        //   label: 'עברית',
         // },
         // hi: {
         //   // Hindi
         //   label: 'हिन्दी',
         // },
-        // hr: {
-        //   // Croatian
-        //   label: 'Hrvatski',
-        // },
         //id: {
         //  //Indonesian
         //  label: 'bahasa Indonesia',
         //},
-        // it: {
-        //   // Italian
-        //   label: 'Italiano',
-        // },
         // ja: {
         //   // Japanese
         //   label: '日本語',
@@ -147,17 +103,9 @@ export default defineConfig({
         //   // Korean
         //   label: '한국어, 조선말',
         // },
-        // ml: {
-        //   // Malayalam
-        //   label: 'മലയാള',
-        // },
         // nl: {
         //   // Dutch, Flemish
         //   label: 'Nederlands',
-        // },
-        // no: {
-        //   // Norwegian
-        //   label: 'Norsk',
         // },
         // pl: {
         //   // Polish
@@ -174,47 +122,6 @@ export default defineConfig({
         // ru: {
         //   // Russian
         //   label: 'Русский язык',
-        // },
-        // si: {
-        //   // Sinhala, Sinhalese
-        //   label: 'සිංහල',
-        // },
-        // sk: {
-        //   // Slovak
-        //   label: 'Solvenčina',
-        // },
-        // sv: {
-        //   // Swedish
-        //   label: 'Svenska',
-        // },
-        // sw: {
-        //   // Swahili
-        //   label: 'Kiswahili; كِسوَحِيلِ',
-        // },
-        // ta: {
-        //   // Tamil
-        //   label: 'தமிழ்',
-        // },
-        // th: {
-        //   // Thai
-        //   label: 'ภาษาไทย',
-        // },
-        // tr: {
-        //   // Turkish
-        //   label: 'Türkçe',
-        // },
-        // uk: {
-        //   // Ukrainian
-        //   label: 'Українська (Ukraїnska)',
-        // },
-        // ur: {
-        //   // Urdu
-        //   label: 'اُردُو',
-        //   dir: 'rtl',
-        // },
-        // vi: {
-        //   // Vietnamese
-        //   label: 'tiếng Việt',
         // },
         // zh: {
         //   // Chinese
