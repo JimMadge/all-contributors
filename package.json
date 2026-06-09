@@ -42,6 +42,7 @@
     "unist-util-visit": "^5.1.0"
   },
   "devDependencies": {
+    "@crowdin/cli": "^4.14.2",
     "cz-conventional-changelog": "^3.3.0",
     "git-cz": "^4.9.0",
     "markdownlint-cli": "^0.48.0"
